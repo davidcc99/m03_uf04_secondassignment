@@ -17,7 +17,6 @@ public class Tablet extends Mobiles{
     
     @Override
     public void reset() {
-        //Comportamiento común para todos los yates
         System.out.println("Reseteando tablet");
     }
     

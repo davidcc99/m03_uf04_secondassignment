@@ -11,7 +11,7 @@ package cat.copernic.m03_uf04_secondassignment;
  */
 public class TerminalVenta extends Sobremesa{
 
-    public TerminalVenta(String nombre, String descripcion, double precio) {
+    public TerminalVenta(String nombre, String descripcion, double precio) throws Exception {
         super(nombre, descripcion, precio);
     }
     

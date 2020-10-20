@@ -11,7 +11,7 @@ package cat.copernic.m03_uf04_secondassignment;
  */
 public abstract class Mobiles extends Dispositivos {
 
-    public Mobiles(String nombre, String descripcion, double precio) {
+    public Mobiles(String nombre, String descripcion, double precio) throws Exception {
         super(nombre, descripcion, precio);
     }
     

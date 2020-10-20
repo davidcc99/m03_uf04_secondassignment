@@ -11,7 +11,7 @@ package cat.copernic.m03_uf04_secondassignment;
  */
 public class M03_UF04_SecondAssignment {
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Mobiles Tablet1 = new Tablet("Ipad Pro","Gran capacidad de almacenamiento y buena calidad",400.5);
         try {
         Tablet1.conecta();

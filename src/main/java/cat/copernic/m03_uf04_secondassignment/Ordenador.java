@@ -11,7 +11,7 @@ package cat.copernic.m03_uf04_secondassignment;
  */
 public class Ordenador extends Sobremesa{
 
-    public Ordenador(String nombre, String descripcion, double precio) {
+    public Ordenador(String nombre, String descripcion, double precio) throws Exception {
         super(nombre, descripcion, precio);
     }
 }

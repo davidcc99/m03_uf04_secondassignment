@@ -14,7 +14,8 @@ public abstract class Dispositivos implements Conectable {
     private String descripcion;
     private double precio;
 
-    public Dispositivos(String nombre, String descripcion, double precio) {
+    public Dispositivos(String nombre, String descripcion, double precio)throws Exception {
+        if (precio <= 0) throw new Exception("El precio tiene que ser positivo: " + precio);
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.precio = precio;
